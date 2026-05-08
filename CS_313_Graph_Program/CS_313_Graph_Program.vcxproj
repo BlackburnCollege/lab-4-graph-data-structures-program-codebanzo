@@ -124,6 +124,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CS_313_Graph_Program.cpp" />
+    <ClCompile Include="Graph.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Downloads\tinygraph.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
